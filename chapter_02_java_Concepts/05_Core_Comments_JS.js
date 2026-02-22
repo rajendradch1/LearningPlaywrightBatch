@@ -1,9 +1,9 @@
-console.log(greeting);
-var greeting = "Rajendra";
-console.log(greeting);
+// this is comment. -this code will not execute.
+console.log("hello");
 
-//behind the scenes
-//var greeting;  ->hoisted with undefined
-//console.log(greeting); ->print undefined
-//greeting = "Rajendra"; ->assign value to the variable
-//console.log(greeting); ->Rajendra
+/**
+ * this is multi line comment
+ * author: rajendr
+ * date : 14-02-2026
+ * age : 42
+ **/
