@@ -4,7 +4,7 @@
  * print Buzz instead of number, for the number that are multiplies of 3 and 5 both, print FizzBuzz.
 */
 
-let number = 43 ;
+
 
 /**
 if ((number / 3 && number / 5) && (number % 3 === 0 && number / 5 === 0)) {
@@ -19,12 +19,16 @@ if ((number / 3 && number / 5) && (number % 3 === 0 && number / 5 === 0)) {
     //it will not work.
 */
 
-if (number % 3 === 0 && number % 5 === 0) {
+for( let i = 1; i<=100; i++){
+
+if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
-} else if (number % 5 === 0) {
+} else if (i % 5 === 0) {
     console.log("Buzz");
-} else if (number % 3 === 0) {
+} else if (i % 3 === 0) {
     console.log("Fizz");
 } else {
-    console.log("Given number is not multiplies of 3 or 5");
+    console.log(i);
+}
+
 }
